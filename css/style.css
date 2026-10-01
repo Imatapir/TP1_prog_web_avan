@@ -39,9 +39,6 @@ h1 {
     margin-left: 30px;
 }
 
-/* ===========================================================
-   Navigation - ruban plutot que barre plate
-   =========================================================== */
 nav {
     background-color: var(--ink);
     padding: 0 20px;
@@ -71,9 +68,7 @@ nav ul li a:hover {
     border-bottom-color: var(--gold);
 }
 
-/* ===========================================================
-   Contenu
-   =========================================================== */
+
 .container {
     max-width: 480px;
     margin: 30px auto;
@@ -101,9 +96,7 @@ nav ul li a:hover {
     color: var(--leather);
 }
 
-/* ===========================================================
-   Tableaux - effet "fiche de catalogue"
-   =========================================================== */
+
 table {
     width: calc(100% - 60px);
     margin: 10px 30px 20px 30px;
@@ -139,9 +132,7 @@ table a:hover {
     color: var(--leather);
 }
 
-/* ===========================================================
-   Formulaires
-   =========================================================== */
+
 form label {
     display: block;
     margin-bottom: 16px;
@@ -172,9 +163,6 @@ form select:focus {
     border-bottom-color: var(--leather);
 }
 
-/* ===========================================================
-   Boutons
-   =========================================================== */
 .btn {
     display: inline-block;
     background-color: var(--leather);

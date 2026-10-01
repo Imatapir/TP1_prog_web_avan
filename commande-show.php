@@ -22,7 +22,6 @@ if(!$commandeData){
 $client = new Client;
 $clientData = $client->selectId('client', $commandeData['client_id']);
 
-// Toutes les lignes de commande_livre pour cette commande
 $lignes = $commande->selectWhere('commande_livre', 'commande_id', $id);
 
 $livre = new Livre;

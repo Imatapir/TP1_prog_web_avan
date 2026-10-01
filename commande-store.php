@@ -30,7 +30,6 @@ if($insert){
         }
     }
 
-    // On vide le panier une fois la commande enregistree
     $_SESSION['panier'] = array();
 
     header("location:commande-show.php?id=$insert");

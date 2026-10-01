@@ -31,8 +31,6 @@ if($clientData){
     <div class="container">
         <form action="client-update.php" method="post">
             <h2>Client Edit</h2>
-            <!-- <input type="text" name="id" value="<?= $id; ?>" readonly> -->
-            <!-- <input type="text" name="id" value="<?= $id; ?>" disabled> -->
             <input type="hidden" name="id" value="<?= $id; ?>">
             <label>Name
                 <input type="text" name="name" value="<?= $name; ?>">

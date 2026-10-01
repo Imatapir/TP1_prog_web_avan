@@ -5,9 +5,6 @@ require_once('Classe/Client.php');
 $client = new Client;
 $clients = $client->select('client', 'name', 'desc');
 
-// echo "<pre>";
-// var_dump($clients);
-// echo "</pre>";
 ?>
 <!DOCTYPE html>
 <html lang="en">
